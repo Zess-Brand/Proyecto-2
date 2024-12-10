@@ -1,3 +1,12 @@
+###Longitud de una frase
+Verifica la longitud de una palabra ingresada, asegurándose de que tiene entre 4 y 8 letras.
+
+Paso 1: Solicita al usuario que ingrese una palabra.
+Paso 2: Verifica la longitud de la palabra:
+Si la longitud está entre 4 y 8 letras, imprime "La palabra es correcta".
+Si tiene menos de 4 letras, calcula la cantidad de letras faltantes y muestra un mensaje indicando cuántas letras faltan.
+Si tiene más de 8 letras, muestra un mensaje indicando cuántas letras sobran.
+
 palabra = input("Ingresa una palabra: ")
 longitud = len(palabra)
 
@@ -7,3 +16,4 @@ elif longitud < 4:
     print(f"Hacen falta letras. Solo tiene {longitud} letras.")
 else:
     print(f"Sobran letras. Tiene {longitud} letras.")
+
